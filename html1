@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<h2>Contact Us</h2>
+<form action="" method="post">
+    <label for="name">Enter your name</label><br>
+    <input type="name"
+    placeholder="type your name"
+    id="name"
+    name="name"
+    required>
+    <br>
+    <br>
+    
+    <label for="name">Enter your email address</label><br>
+    <input type="mail"
+    placeholder="type your email"
+    id="mail"
+    name="mail"
+    required>
+    <br>
+    <br>
+    <label for="country">Choose your country</label><br>
+    <select id="country" name="country">
+        <option slected disabled>--Select--</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Germany">Germany</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Japan">Japan</option>
+        <option value="UAE">UAE</option>
+        <option value="SA">SA</option>
+        <input type="file" accept="application/pdf" size="5000">
+        <p><b>Note:</b>Only pdf files are accepted</p>
+        <br>
+        <br>
+        <label for="message">Comments</label><br>
+        <input 
+        style="width:75%; height:75px"
+        type="message"
+        id="message"
+        name="message"
+        placeholder="share your feedback..."
+        required>
+        <br>
+        <br>
+        <label name="date">Choose the date and time to contact you back</label>
+        <input type="datetime-local" required>
+        <br>
+        <br>
+        <div>About us</div>
+        <div>Careers</div>
+        <div>Privacy Policy</div>
+        <div>info</div>
+    </select>
+</form>
+
+
+  <form action="" method="post" >
+    <h2>Personal Info</h2>
+    <br>
+
+<label for="firstname"><b>First Name</b></label>
+<input
+    size="30"
+       type="firstname"
+           placeholder="type your first name ..."
+    name="firstname"
+>
+     <label for="lastname"><b>Last Name</b></label>
+<input
+    size="30"
+       type="lastname"
+           placeholder="type your sur name ..."
+    name="lastname"
+>
+<br>
+  <br>
+
+<label for="mail">Enter your email address</label><br>
+    <input
+    type="mail"
+    placeholder="type your email ..."
+name="mail"
+    id="mail"
+>
+      <br>
+        <br>
+<label for="phone">Enter your phone number</label><br>
+    <input
+    type="phone"
+    placeholder="type your phone no ..."
+    name="phone"
+           id="phone"
+>
+      <br>
+        <br>
+          
+
+<input type="radio" name="employment" value="Workingprofessional" id="Workingprofessional">
+    <label>Working Professional</label>
+   <input type="radio" name="employment" value="selfemployed" id="selfemployed">
+    <label>Self Employed</label>
+     
+     </form>
+</body>
+</html>
+</body>
+</html>
